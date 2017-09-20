@@ -17,3 +17,5 @@ isStringPalindrome(givenString: "racecar")
 isStringPalindrome(givenString: "Racecar")
 
 //returns true 
+
+

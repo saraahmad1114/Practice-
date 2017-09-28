@@ -8,13 +8,9 @@ var str = "Hello, playground"
 
 func areStringsRotation(str1: String, str2: String) -> Bool
 {
-    var str1str1 = str1.characters + str1.characters
+    var str1str1 = str1 + str1
     
-    var str2str2 = str2.characters + str2.characters
+    var str2str2 = str2 + str2
     
-    var charStr1 = str1.characters
-    
-    var charStr2 = str2.characters
-    
-    return str1str1.contains(charStr1) || str2str2.contains(charStr2)
+    return str1str1.contains(str1) || str2str2.contains(str2)
 }

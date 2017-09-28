@@ -14,3 +14,4 @@ func areStringsRotation(str1: String, str2: String) -> Bool
     
     return str1str1.contains(str1) || str2str2.contains(str2)
 }
+

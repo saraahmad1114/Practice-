@@ -22,10 +22,8 @@ func findLongestPrefixIn (string: String) -> String{
                 return bestPrefix
             }
         }
-        
         bestPrefix = currentPrefix
     }
-    
     return bestPrefix
 }
 
